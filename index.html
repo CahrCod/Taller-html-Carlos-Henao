@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty - Buscador de Personajes</title>
+    <!-- Vinculación del archivo CSS para los estilos -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <h1 class="main-title">Rick and Morty API</h1>
+        </div>
+        
+        <!-- Zona de búsqueda de personajes -->
+        <div class="search-container">
+            <input 
+                type="text" 
+                id="search-input" 
+                class="search-input" 
+                placeholder="Ingresa el nombre del personaje..."
+                autocomplete="off"
+            >
+            <button id="search-btn" class="search-btn">Buscar</button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- Contenedor para mostrar mensajes de estado (Cargando, Error, No Resultados) -->
+        <section id="status-container" class="status-container hidden">
+            <p id="status-message" class="status-message"></p>
+        </section>
+
+        <!-- Cuadrícula donde se renderizarán dinámicamente las tarjetas de personajes -->
+        <section id="characters-grid" class="characters-grid">
+            <!-- Las tarjetas se inyectarán aquí mediante JavaScript -->
+        </section>
+    </main>
+
+    <!-- Vinculación del archivo JavaScript para la lógica -->
+    <script src="app.js"></script>
+</body>
+</html>

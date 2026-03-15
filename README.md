@@ -1,7 +1,5 @@
 # Taller-html-Carlos-Henao
 
-# Taller-html-Carlos-Henao
-
 # Rick and Morty Mini Web App
 
 Este proyecto es una mini aplicación web interactiva que consume la API pública de Rick and Morty para mostrar información de los personajes. Fue desarrollada como parte de un taller práctico para aplicar conocimientos de HTML, CSS y JavaScript.
